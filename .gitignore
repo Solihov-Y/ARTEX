@@ -58,3 +58,14 @@ Thumbs.db
 /bench/
 /Dockerfile.bench
 /Dockerfile.bench.v2
+# Local secrets
+.env
+.env.*
+!.env.example
+jwt.key
+
+# Generated files
+dist/
+web/out/
+web/node_modules/
+server/webui/dist/
